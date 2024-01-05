@@ -1,0 +1,10 @@
+[profile.release]
+solc = "0.8.15"
+src = "src"
+out = "out"
+libs = ["lib"]
+include = ["lib/openzeppelin-contracts"]
+anvil = "http://127.0.0.1:8545"
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
